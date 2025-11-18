@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌈 Nginx Colorful Test Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6; /* Light gray background */
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border: 5px solid #007bff; /* Primary Blue Border */
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #28a745; /* Success Green */
+            font-size: 2.5em;
+            border-bottom: 3px solid #ffc107; /* Warning Yellow underline */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #6c757d;
+        }
+        .status-box {
+            background-color: #dc3545; /* Danger Red */
+            color: white;
+            padding: 15px 25px;
+            margin-top: 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NGINX Server Test Successful! 🚀</h1>
+        <p>This page confirms that your Nginx web server is properly configured and serving files.</p>
+        <p>The service is up, the port is open, and the content is delivered.</p>
+        <div class="status-box">
+            STATUS: ACTIVE and Colorful!
+        </div>
+    </div>
+</body>
+</html>
